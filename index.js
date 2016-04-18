@@ -1,3 +1,3 @@
-if (hexo.config.nofollow && hexo.config.nofollow.enable) {
+if (hexo.config.autolinker && hexo.config.autolinker.enable) {
     hexo.extend.filter.register('after_render:html', require('./lib/filter'));
 }
