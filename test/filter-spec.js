@@ -47,7 +47,7 @@ describe('hexo-autolinker', function() {
 
         it('should not convert links when urls:false', function () {
 
-            var filterNoUrls = filter.bind({config: {urls: false}});
+            var filterNoUrls = filter.bind({config: {autolinker: {urls: false}}});
 
             var result1 = filterNoUrls('http://google.com');
             var result2 = filterNoUrls('www.google.com');
@@ -60,7 +60,7 @@ describe('hexo-autolinker', function() {
 
         it('should not convert email addresses when email:false', function () {
 
-            var filterNoEmails = filter.bind({config: {email: false}});
+            var filterNoEmails = filter.bind({config: {autolinker: {email: false}}});
 
             var result = filterNoEmails('email@google.com');
 
@@ -69,7 +69,7 @@ describe('hexo-autolinker', function() {
 
         it('should convert phone numbers when phone:true', function () {
 
-            var filterWithPhone = filter.bind({config: {phone: true}});
+            var filterWithPhone = filter.bind({config: {autolinker: {phone: true}}});
 
             var result = filterWithPhone('123-456-7890');
 
@@ -78,7 +78,7 @@ describe('hexo-autolinker', function() {
 
         it('should convert Twitter handles when twitter:true', function () {
 
-            var filterWithPhone = filter.bind({config: {twitter: true}});
+            var filterWithPhone = filter.bind({config: {autolinker: {twitter: true}}});
 
             var result = filterWithPhone('@TwitterUser');
 
@@ -87,7 +87,7 @@ describe('hexo-autolinker', function() {
 
         it('should convert hashtags to when hashtag:instagram', function () {
 
-            var filterWithPhone = filter.bind({config: {hashtag: 'instagram'}});
+            var filterWithPhone = filter.bind({config: {autolinker: {hashtag: 'instagram'}}});
 
             var result = filterWithPhone('#HashTag');
 
@@ -96,7 +96,7 @@ describe('hexo-autolinker', function() {
 
         it('should should add custom class when className is set', function () {
 
-            var filterWithClass = filter.bind({config: {className: 'test'}});
+            var filterWithClass = filter.bind({config: {autolinker: {className: 'test'}}});
 
             var result = filterWithClass('http://google.com');
 
