@@ -27,7 +27,7 @@ npm install hexo-autolinker --save
 Configure the plugin your blog's main `_config.yml`
 
 ```
-auto-linker:
+autolinker:
     enable: true
     newWindow: true
     urls: true
