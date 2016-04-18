@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/klugjo/hexo-autolinker/issues"
   },
-  "homepage": "https://github.com/klugjo/hexo-autolinker#readme"
+  "homepage": "https://github.com/klugjo/hexo-autolinker#readme",
+  "dependencies": {
+    "autolinker": "^0.26.0",
+    "lodash": "^4.11.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
