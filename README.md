@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/klugjo/hexo-autolinker.svg?branch=master)](https://travis-ci.org/klugjo/hexo-autolinker)
+<br />
 ## hexo-autolinker
 
 Automatically transforms URLs into links. This hexo plugin is a wrapper around the [Autolinker.js](https://github.com/gregjacobs/Autolinker.js) library.
