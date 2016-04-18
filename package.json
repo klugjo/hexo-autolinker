@@ -1,0 +1,25 @@
+{
+  "name": "hexo-autolinker",
+  "version": "1.0.0",
+  "description": "Automatic link generation in Hexo posts",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klugjo/hexo-autolinker.git"
+  },
+  "keywords": [
+    "hexo",
+    "link",
+    "hexo-autolinker",
+    "mailto"
+  ],
+  "author": "Klughertz Jonathan <klughertz.j@gmail.com> (http://klugjo.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klugjo/hexo-autolinker/issues"
+  },
+  "homepage": "https://github.com/klugjo/hexo-autolinker#readme"
+}
