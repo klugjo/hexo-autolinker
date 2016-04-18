@@ -36,6 +36,8 @@ auto-linker:
     className: 'test'
 ```
 
+#### Explanations:
+
 Property | Default Value | Description
 --- | --- | :--
 `enable` | true | Enable the plugin

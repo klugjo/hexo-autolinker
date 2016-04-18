@@ -4,7 +4,7 @@
   "description": "Automatic link generation in Hexo posts",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
